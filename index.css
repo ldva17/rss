@@ -1,0 +1,30 @@
+body {
+  font-family: 'Anton', sans-serif;  
+    height: 100vh;
+}
+li{list-style: none;}
+a {
+  text-decoration: none;
+  color: white;
+}
+.he{width: 100%; height: 100VH; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.but{width: 300px; height: 100px; color: white; background-color: black; font-size: 40px; border: solid red 2px;}
+.s2{ height: 100vh; width: 100%; background-color:black; margin-top: 40px; }
+.per{width: 100%; height: 20%; display: flex; align-items:center ;flex-direction: column;}
+.esc{height: 40%; width: 100%; display: flex ; justify-content: center; column-gap: 10%;}
+.esc2{height: 40%; width: 100%; display: flex ; justify-content: center; column-gap: 10% ; margin-top: 20px;}
+.d1{width: 300px; height: 300px; background-color:#A60000; border-radius: 50%;display: flex; justify-content: center; align-items: center;}
+.l1{display: flex; flex-direction: column; align-items: center; row-gap: 10px;}
+.tt{color: white; font-size: 30px;}
+.tt1{color: white; font-size: 70px;}
+.ac{width: 100%; height: 100vh; background-color: #420000; display: flex;  flex-direction: column; align-items: center; row-gap: 40px; padding-top: 50px;}
+.ex{ height: 100vh; width: 100%; background-color:black;  display: flex; align-items: center;justify-content: center; flex-direction: column; row-gap: 10px;}
+.ee{width: 100%; height: 700px; background-color:black ; display: flex; flex-direction: column; align-items: center; justify-content: center; border: solid #A60000 4px;}
+.bb{display: flex; padding-top: 30px; column-gap: 30px;}
+.ha{width: 100%; height: 100vh; background-color: black;display: flex; align-items: center;  flex-direction: column; row-gap: 100px;}
+.haa{display: flex; height: 50%; width: 100%; align-items: center; justify-content: center; column-gap: 30px;}
+.co{ width: 100%; height: 100vh; background-color: #420000; text-align: center;}
+.coo{width: 100%; height: 80%; display: flex ; flex-direction: column;align-items: center;row-gap: 30px; justify-content: center;}
+.op{background-image: linear-gradient(to top,#2fbdff,#0f2f40); width: 100%;height: 100vh; text-align: center; padding-top: 40px;}
+.he,.op,.yy,.co,.coo,.ha,.haa, .ac, .s2, .ex, .d1{visibility: hidden;}
+
